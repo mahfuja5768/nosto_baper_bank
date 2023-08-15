@@ -34,14 +34,14 @@
                 <h3 class="text-2xl font-bold mb-2">Please Deposit</h3>
                 <input
                 id="deposit_input"
-                class="mt-5 py-3 px-3 w-1/2 rounded-md"
-                type="password"
+                class="mt-5 py-3 px-3 w-1/2 rounded-md text-black"
+                type="number"
                 placeholder="$ Amount you want to deposit"
               />
               <br />
               <input
               id="deposit_btn"
-                class="bg-blue-700 mt-8 py-2 px-4 rounded-md text-white font-bold text-md"
+                class="bg-blue-700 mt-8 py-2 px-4 rounded-md text-white font-bold text-md "
                 type="submit"
                 value="Submit"
               />
@@ -49,14 +49,14 @@
             <div class="withdraw bg-blue-400 py-10 text-white px-2 rounded-md" >
                 <h3 class="text-2xl font-bold mb-2">Please Withdraw</h3>
                 <input
-                id="withdraw_amount"
-                class="mt-5 py-3 px-3 w-1/2 rounded-md"
-                type="password"
+                id="withdraw_input"
+                class="mt-5 py-3 px-3 w-1/2 rounded-md text-black"
+                type="number"
                 placeholder="$ Amount you want to withdraw"
               />
               <br />
               <input
-              id="withdraw_input"
+              id="withdraw_btn"
                 class="bg-blue-700 mt-8 py-2 px-4 rounded-md text-white font-bold text-md"
                 type="submit"
                 value="Submit"
@@ -66,6 +66,7 @@
         </div>
       </div>
     </main>
+    <script src="./utilities.js"></script>
     <script src="./deposit.js"></script>
     <script src="./withdraw.js"></script>
   </body>

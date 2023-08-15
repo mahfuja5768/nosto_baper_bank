@@ -1,11 +1,10 @@
-const depositInput = document.getElementById(id);
-const depositAmount = document.getElementById(id);
-
-function submitBtn(id) {
-  document.getElementById(id).addEventListener("click", () => {
-    const inputField = document.getElementById(id);
-    const amount = document.getElementById(id);
-    const amountValue = parseFloat(depositAmount.innerText);
-    const inputFieldValue = parseFloat(inputField.value);
-  });
+function getInputValue(id) {
+  const inputField = document.getElementById(id);
+  const inputFieldValue = parseFloat(inputField.value);
+  inputField.value = '';
+  return inputFieldValue;
+}
+function getAmountValue(id) {
+  const amountField = document.getElementById(id);
+  return amountField;
 }
